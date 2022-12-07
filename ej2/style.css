@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+   }
+ 
+   .contenedor {
+    top: 50px;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border: 1px solid #000000;
+    position: relative;
+    background: red;
+   
+   }
+
+
+.contenedor:hover{
+
+   
+    transition: 3s;
+    width: 600px;
+    animation-fill-mode: forwards;
+}
+
+.contenedor:not(hover){
+
+    transition: 3s;
+    animation-fill-mode: forwards;
+}

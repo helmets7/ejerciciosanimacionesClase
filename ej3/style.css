@@ -1,0 +1,24 @@
+.container{
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+    
+}
+
+*{
+    background-color: grey;
+}
+
+#input:not(hover){
+    background-color: white;
+    transition: 1s;
+    width: 500px;
+    
+}
+
+#input:hover{
+    border-radius: 22px;
+    background-color: rgb(163, 163, 233);
+    box-shadow: 10px 5px 5px blue;
+    transition: 1s;
+}

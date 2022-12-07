@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+   }
+ 
+   .contenedor {
+    top: 50px;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border: 1px solid #000000;
+    position: relative;
+    background: red;
+   
+   }
+
+
+.contenedor:hover{
+
+    background: blue;
+    transition: 2s;
+    transform: rotate(45deg);
+    animation-fill-mode: forwards;
+}
+
+.contenedor:not(hover){
+
+    background: red;
+    transition: 2s;
+    transform: rotate(0deg);
+    animation-fill-mode: forwards;
+}
