@@ -28,7 +28,7 @@ img{
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     animation-direction: normal;
-    animation-timing-function: cubic-bezier(.18,.01,.99,.69);
+    animation-timing-function: cubic-bezier(.82,.32,.65,.71);
    
 }
 
