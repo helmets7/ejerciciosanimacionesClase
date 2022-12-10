@@ -9,8 +9,7 @@ body{
 }
 
 img{
-    width: 140px;
-    height: 140px;
+    width: 50px;
 
 }
 
@@ -21,8 +20,8 @@ img{
 }
 
 .animar {
-    animation-name: movimiento;
-    animation-duration: 5s;
+    animation-name: cambio;
+    animation-duration: 2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     animation-direction: normal;
@@ -31,10 +30,15 @@ img{
    
 }
 
-@keyframes movimiento {
-    100%{
+@keyframes cambio {
+    70%{
         width: 190px;
-        height: 190px;
+        box-shadow: 10px 10px 10px red;
+    }
+    100%{
+        width: 50px;
+        box-shadow: 0px 0px 0px;
+        
     }
 
 }
